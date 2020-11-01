@@ -1,5 +1,5 @@
-def reverse_each_word(sentence)
-  sentence = words.split
+def reverse_each_word(word)
+  sentence = word.split
   sentence = []
   if sentence.each do |sent1|
     
