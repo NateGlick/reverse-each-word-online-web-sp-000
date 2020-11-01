@@ -4,4 +4,5 @@ def reverse_each_word(word)
   sentence.collect do |word|
     reverse << word.reverse
    end 
+   reverse.join
 end
